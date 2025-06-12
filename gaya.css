@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #fff;
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* Space between text and image */
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.hero-text p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    background-color: #eee;
+    color: #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border: 1px dashed #ccc;
+}
+
+.hero-image .placeholder {
+    width: 600px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+}
+
+/* About Me Section */
+.about-me {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.about-me h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about-me .subtitle {
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.bio-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bio-buttons button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #555;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bio-buttons button:hover {
+    background-color: #e2e2e2;
+    color: #333;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.portfolio h2 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-item .placeholder {
+    width: 100%;
+    height: 200px; /* Fixed height for consistency */
+    margin-bottom: 15px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.project-item p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
